@@ -18,7 +18,7 @@ const productMobileDetailsUploading = async(req,res)=>{
     
     } catch (error) {
         console.error(error);
-        res.status(500).json("Internal Server Error While Uploading the Mobile Product Details.")
+        res.status(500).json("Internal Server Error While Uploading the Mobile Product Details. "+error.message)
     }
 }
 

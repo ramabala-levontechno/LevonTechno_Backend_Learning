@@ -45,6 +45,17 @@ Route:
 URl end Point for Product Creation for Mobile-Product: 
 http://localhost:4500/api/v1/Product//upload-mobile-details 
 
+Url for Get all Mobile Products:
+http://localhost:4500/api/v1/Product/getAll-MobileProducts 
+
+Url For get Mobile Product by Id:
+http://localhost:4500/api/v1/Product/getSingleProductById-MobileProducts/66dedff155d1cfc4597dafba 
+
+Url for Update Mobile Product:
+http://localhost:4500/api/v1/Product/update-MobileProductDetails/66dedff155d1cfc4597dafba 
+
+Url for Delete Product By id:
+http://localhost:4500/api/v1/Product/66dedff155d1cfc4597dafba 
 
 
 
